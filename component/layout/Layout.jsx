@@ -16,7 +16,7 @@ function Layout({ children }) {
   const clicHandler = () => {
     setOpenDrawer(!openDrawer);
   };
-  console.log(openDrawer);
+
   return (
     <Grid position={"relative"}>
       <Box  sx={{ flexGrow: 1 }} display={{ xs: "flex", md: "none" }}>
